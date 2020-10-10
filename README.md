@@ -37,3 +37,11 @@ Records file snapshots permanently in version history
 ### `git push [alias] [branch]`
 
 Uploads all local branch commits to GitHub
+
+### `git branch`
+
+Lists all branches in the current repo
+
+### `git branch [branch-name]`
+
+Creates a new branch
