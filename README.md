@@ -37,3 +37,36 @@ Records file snapshots permanently in version history
 ### `git push [alias] [branch]`
 
 Uploads all local branch commits to GitHub
+
+## Data for BooksArray
+
+```
+BooksArray: [
+  {
+    id: id,
+    title: string,
+    author: string,
+    publisher: string,
+    publishedDate: number,
+    description: string,
+    pageCount: number,
+    averageRating: number,
+    linkToBuy: string,
+    smallThumbnail: string,
+    thumbnail: string,
+  },
+  {
+    id: id,
+    title: string,
+    author: string,
+    publisher: string,
+    publishedDate: number,
+    description: string,
+    pageCount: number,
+    averageRating: number,
+    linkToBuy: string,
+    smallThumbnail: string,
+    thumbnail: string,
+  },
+]
+```
