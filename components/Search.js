@@ -23,10 +23,13 @@ function Search({ onSearch }) {
 				description: book.volumeInfo.description,
 				pageCount: book.volumeInfo.pageCount,
 				averageRating: book.volumeInfo.averageRating,
-				linkToBuy: book.saleInfo.buyLink,
-				// linkToPdf: book.accessInfo.pdf.isAvailable ? accessInfo.pdf.acsTokenLink : 'Unavailable',
+				linkToBuy: book.saleInfo.buyLink || 'Unavailable',
+				smallThumbnail: book.volumeInfo.imageLinks.smallThumbnail,
+				thumbnail: book.volumeInfo.imageLinks.thumbnail,
+				linkToPdf: book.accessInfo.pdf.acsTokenLink || 'Unavailable',
 			}),
 		);
+		console.log(newBooksArray[1]);
 		setBookData(newBooksArray);
 	};
 

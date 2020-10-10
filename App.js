@@ -11,7 +11,7 @@ function App() {
 
 	const onSearch = (booksArray) => {
 		setCurrentBooksList(booksArray);
-		console.log(booksArray);
+		// console.log(currentBooksList);
 	};
 
 	return (
