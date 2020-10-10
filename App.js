@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
+import React, { useState } from 'react';
 import { StyleSheet, ImageBackground, View, SafeAreaView } from 'react-native';
 
 import Title from './components/Title';
@@ -7,6 +7,13 @@ import Search from './components/Search';
 import BookList from './components/BookList';
 
 function App() {
+	const [currentBooksList, setCurrentBooksList] = useState([]);
+
+	const onSearch = (booksArray) => {
+		setCurrentBooksList(booksArray);
+		console.log(booksArray);
+	};
+
 	return (
 		<ImageBackground
 			style={styles.backgroundImage}
@@ -14,7 +21,7 @@ function App() {
 		>
 			<SafeAreaView style={styles.safeArea}>
 				<Title />
-				<Search />
+				<Search onSearch={onSearch} />
 				<BookList />
 			</SafeAreaView>
 		</ImageBackground>
