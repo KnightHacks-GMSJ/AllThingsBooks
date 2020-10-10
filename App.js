@@ -5,20 +5,23 @@ import TestNative from './components/TestNative';
 import Title from './components/Title';
 import Search from './components/Search';
 import BookList from './components/BookList';
+import { Container } from 'native-base';
 
 function App() {
 	return (
-		<ImageBackground
-			style={styles.backgroundImage}
-			source={require('./assets/background-image.jpg')}
-		>
-			<SafeAreaView style={styles.safeArea}>
-				<Title />
-				<Search />
-				<TestNative />
-				<BookList />
-			</SafeAreaView>
-		</ImageBackground>
+		<Container>
+			<ImageBackground
+				style={styles.backgroundImage}
+				source={require('./assets/background-image.jpg')}
+			>
+				<SafeAreaView style={styles.safeArea}>
+					<Title />
+					<Search />
+					<TestNative />
+					<BookList />
+				</SafeAreaView>
+			</ImageBackground>
+		</Container>
 	);
 }
 
