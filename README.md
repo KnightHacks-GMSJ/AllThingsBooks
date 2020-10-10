@@ -38,6 +38,10 @@ Records file snapshots permanently in version history
 
 Uploads all local branch commits to GitHub
 
+### `git checkout [branch-name]`
+
+Switches to the specified branch and updates the working directory
+
 ### `git branch`
 
 Lists all branches in the current repo
