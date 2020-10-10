@@ -10,7 +10,7 @@ const ApiView = () => {
 	return (
 		<View>
 			<View style={{ margin: 18 }}>
-				<Button title={'Click using axios'} onPress={goForAxios} color="green" />
+				<Button title={'Click using axios!'} onPress={goForAxios} color="green" />
 			</View>
 		</View>
 	);
