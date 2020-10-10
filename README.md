@@ -1,5 +1,5 @@
 # AllThingsBooks
-
+```
 BooksArray: [
   {
     id: id,
@@ -24,5 +24,4 @@ BooksArray: [
     linkToBuy: string
   },
 ]
-  
-
+```
