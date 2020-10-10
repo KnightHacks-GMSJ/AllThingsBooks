@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import { Button, TextInput, View, StyleSheet, Text, FlatList } from 'react-native';
+import React, { useState } from 'react';
+import { Text, StyleSheet } from 'react-native';
 import uuid from 'uuid-random';
-// import { Container, Content, Form, Item, Input, Text } from 'native-base';
+import axios from 'axios';
+import { Form, Item, Input, Button } from 'native-base';
+
 function Search({ onSearch }) {
 	const [text, setText] = useState('');
 	const [bookData, setBookData] = useState([]);
@@ -24,54 +25,48 @@ function Search({ onSearch }) {
 				pageCount: book.volumeInfo.pageCount,
 				averageRating: book.volumeInfo.averageRating,
 				linkToBuy: book.saleInfo.buyLink || 'Unavailable',
-				smallThumbnail: book.volumeInfo.imageLinks.smallThumbnail,
+				smallThumbnail: book.volumeInfo.imageLinks.smallThumbnail || 'Unavailable',
 				thumbnail: book.volumeInfo.imageLinks.thumbnail,
 				linkToPdf: book.accessInfo.pdf.acsTokenLink || 'Unavailable',
 			}),
 		);
-		console.log(newBooksArray[1]);
 		setBookData(newBooksArray);
 	};
 
-	const renderBook = ({ title }) => {
-		<Text>{title}</Text>;
-	};
-
 	return (
-		<View style={StyleSheet.searchContainer}>
-			<TextInput
-				style={style.inputContainer}
-				placeholder="Enter Title of the Book You Want to Search For!"
-				onChangeText={(text) => setText(text)}
-			/>
+		<Form style={style.form}>
+			<Item rounded style={style.input}>
+				<Input placeholder="Enter Title of Book..." onChangeText={(text) => setText(text)}></Input>
+			</Item>
 			<Button
-				title="Search"
+				style={style.button}
+				transparent
+				info
 				onPress={() => {
 					searchApi(text);
 					onSearch(bookData);
 				}}
-			/>
-		</View>
-
-		// <Container>
-		// 	<Content>
-		// 		<Form>
-		// 			<Item>
-		// 				<Input style={style.inputContainer} placeholder="Type in a book" />
-		// 			</Item>
-		// 		</Form>
-		// 		<Button primary>
-		// 			<Text>"Click this"</Text>{' '}
-		// 		</Button>
-		// 	</Content>
-		// </Container>
+			>
+				<Text>Search</Text>
+			</Button>
+		</Form>
 	);
 }
 
 const style = StyleSheet.create({
-	searchContainer: {},
-	inputContainer: {
-		borderWidth: 1,
+	form: {
+		width: '90%',
+		flexDirection: 'row',
+		justifyContent: 'space-between',
+	},
+	input: {
+		width: '65%',
+		borderColor: '#35c7de',
+	},
+	button: {
+		width: '30%',
+		flexDirection: 'column',
+		justifyContent: 'center',
 	},
 });
 
