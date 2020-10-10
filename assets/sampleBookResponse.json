@@ -1,0 +1,855 @@
+{
+	"kind": "books#volumes",
+	"totalItems": 1765,
+	"items": [
+		{
+			"kind": "books#volume",
+			"id": "7XUSn0IKQEgC",
+			"etag": "74MrLyCO8yE",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/7XUSn0IKQEgC",
+			"volumeInfo": {
+				"title": "The Algorithm Design Manual",
+				"authors": ["Steven S Skiena"],
+				"publisher": "Springer Science & Business Media",
+				"publishedDate": "2009-04-05",
+				"description": "This newly expanded and updated second edition of the best-selling classic continues to take the \"mystery\" out of designing algorithms, and analyzing their efficacy and efficiency. Expanding on the first edition, the book now serves as the primary textbook of choice for algorithm design courses while maintaining its status as the premier practical reference guide to algorithms for programmers, researchers, and students. The reader-friendly Algorithm Design Manual provides straightforward access to combinatorial algorithms technology, stressing design over analysis. The first part, Techniques, provides accessible instruction on methods for designing and analyzing computer algorithms. The second part, Resources, is intended for browsing and reference, and comprises the catalog of algorithmic resources, implementations and an extensive bibliography. NEW to the second edition: • Doubles the tutorial material and exercises over the first edition • Provides full online support for lecturers, and a completely updated and improved website component with lecture slides, audio and video • Contains a unique catalog identifying the 75 algorithmic problems that arise most often in practice, leading the reader down the right path to solve them • Includes several NEW \"war stories\" relating experiences from real-world applications • Provides up-to-date links leading to the very best algorithm implementations available in C, C++, and Java",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_13",
+						"identifier": "9781848000704"
+					},
+					{
+						"type": "ISBN_10",
+						"identifier": "1848000707"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": true
+				},
+				"pageCount": 730,
+				"printType": "BOOK",
+				"categories": ["Computers"],
+				"averageRating": 4.5,
+				"ratingsCount": 19,
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": true,
+				"contentVersion": "1.1.0.0.preview.1",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=7XUSn0IKQEgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=7XUSn0IKQEgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com/books?id=7XUSn0IKQEgC&printsec=frontcover&dq=algorithm+design+manual&hl=&cd=1&source=gbs_api",
+				"infoLink": "https://play.google.com/store/books/details?id=7XUSn0IKQEgC&source=gbs_api",
+				"canonicalVolumeLink": "https://play.google.com/store/books/details?id=7XUSn0IKQEgC"
+			},
+			"saleInfo": {
+				"country": "US",
+				"saleability": "FOR_SALE_AND_RENTAL",
+				"isEbook": true,
+				"listPrice": {
+					"amount": 79.99,
+					"currencyCode": "USD"
+				},
+				"retailPrice": {
+					"amount": 63.2,
+					"currencyCode": "USD"
+				},
+				"buyLink": "https://play.google.com/store/books/details?id=7XUSn0IKQEgC&rdid=book-7XUSn0IKQEgC&rdot=1&source=gbs_api",
+				"offers": [
+					{
+						"finskyOfferType": 1,
+						"listPrice": {
+							"amountInMicros": 79990000,
+							"currencyCode": "USD"
+						},
+						"retailPrice": {
+							"amountInMicros": 63200000,
+							"currencyCode": "USD"
+						},
+						"giftable": true
+					},
+					{
+						"finskyOfferType": 3,
+						"listPrice": {
+							"amountInMicros": 28000000,
+							"currencyCode": "USD"
+						},
+						"retailPrice": {
+							"amountInMicros": 24360000,
+							"currencyCode": "USD"
+						},
+						"rentalDuration": {
+							"unit": "DAY",
+							"count": 90
+						}
+					}
+				]
+			},
+			"accessInfo": {
+				"country": "US",
+				"viewability": "PARTIAL",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.com/books/download/The_Algorithm_Design_Manual-sample-pdf.acsm?id=7XUSn0IKQEgC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=7XUSn0IKQEgC&hl=&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "NEW to the second edition: • Doubles the tutorial material and exercises over the first edition • Provides full online support for lecturers, and a completely updated and improved website component with lecture slides, audio and video ..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "TrXd-gxPhVYC",
+			"etag": "9TK8oF6c+sw",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/TrXd-gxPhVYC",
+			"volumeInfo": {
+				"title": "The Algorithm Design Manual: Text",
+				"authors": ["Steven S. Skiena"],
+				"publisher": "Springer Science & Business Media",
+				"publishedDate": "1998",
+				"description": "This volume helps take some of the \"mystery\" out of identifying and dealing with key algorithms. Drawing heavily on the author's own real-world experiences, the book stresses design and analysis. Coverage is divided into two parts, the first being a general guide to techniques for the design and analysis of computer algorithms. The second is a reference section, which includes a catalog of the 75 most important algorithmic problems. By browsing this catalog, readers can quickly identify what the problem they have encountered is called, what is known about it, and how they should proceed if they need to solve it. This book is ideal for the working professional who uses algorithms on a daily basis and has need for a handy reference. This work can also readily be used in an upper-division course or as a student reference guide.THE ALGORITHM DESIGN MANUAL comes with a CD-ROM that contains:* a complete hypertext version of the full printed book.* the source code and URLs for all cited implementations.* over 30 hours of audio lectures on the design and analysis of algorithms are provided, all keyed to on-line lecture notes.",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_10",
+						"identifier": "0387948600"
+					},
+					{
+						"type": "ISBN_13",
+						"identifier": "9780387948607"
+					}
+				],
+				"readingModes": {
+					"text": true,
+					"image": true
+				},
+				"pageCount": 486,
+				"printType": "BOOK",
+				"categories": ["Computers"],
+				"averageRating": 4,
+				"ratingsCount": 20,
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": true,
+				"contentVersion": "0.0.4.0.preview.3",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=TrXd-gxPhVYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=TrXd-gxPhVYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com/books?id=TrXd-gxPhVYC&printsec=frontcover&dq=algorithm+design+manual&hl=&cd=2&source=gbs_api",
+				"infoLink": "http://books.google.com/books?id=TrXd-gxPhVYC&dq=algorithm+design+manual&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/The_Algorithm_Design_Manual_Text.html?hl=&id=TrXd-gxPhVYC"
+			},
+			"saleInfo": {
+				"country": "US",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "US",
+				"viewability": "PARTIAL",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+				"epub": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.com/books/download/The_Algorithm_Design_Manual_Text-sample-epub.acsm?id=TrXd-gxPhVYC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"pdf": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.com/books/download/The_Algorithm_Design_Manual_Text-sample-pdf.acsm?id=TrXd-gxPhVYC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=TrXd-gxPhVYC&hl=&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "This volume helps take some of the &quot;mystery&quot; out of identifying and dealing with key algorithms. Drawing heavily on the author&#39;s own real-world experiences, the book stresses design and analysis."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "In6kmAEACAAJ",
+			"etag": "61WlWrUfsUU",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/In6kmAEACAAJ",
+			"volumeInfo": {
+				"title": "The Algorithm Design Manual",
+				"authors": ["Steven S. Skiena"],
+				"publisher": "Springer-Verlag New York Incorporated",
+				"publishedDate": "2008",
+				"description": "Expanding on the highly successful formula of the first edition, this book now serves as the primary textbook of choice for any algorithm design course while maintaining its status as the premier practical reference guide to algorithms.",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_10",
+						"identifier": "1848000693"
+					},
+					{
+						"type": "ISBN_13",
+						"identifier": "9781848000698"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 730,
+				"printType": "BOOK",
+				"categories": ["Computers"],
+				"averageRating": 4.5,
+				"ratingsCount": 5,
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "preview-1.0.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com/books?id=In6kmAEACAAJ&dq=algorithm+design+manual&hl=&cd=3&source=gbs_api",
+				"infoLink": "http://books.google.com/books?id=In6kmAEACAAJ&dq=algorithm+design+manual&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/The_Algorithm_Design_Manual.html?hl=&id=In6kmAEACAAJ"
+			},
+			"saleInfo": {
+				"country": "US",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "US",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=In6kmAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "Expanding on the highly successful formula of the first edition, this book now serves as the primary textbook of choice for any algorithm design course while maintaining its status as the premier practical reference guide to algorithms."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "rHIqDwAAQBAJ",
+			"etag": "uQAuhse8Edk",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/rHIqDwAAQBAJ",
+			"volumeInfo": {
+				"title": "The Data Science Design Manual",
+				"authors": ["Steven S. Skiena"],
+				"publisher": "Springer",
+				"publishedDate": "2017-08-08",
+				"description": "This engaging and clearly written textbook/reference provides a must-have introduction to the rapidly emerging interdisciplinary field of data science. It focuses on the principles fundamental to becoming a good data scientist and the key skills needed to build systems for collecting, analyzing, and interpreting data. The Data Science Design Manual is a source of practical insights that highlights what really matters in analyzing data, and provides an intuitive understanding of how these core concepts can be used. The book does not emphasize any particular programming language or suite of data-analysis tools, focusing instead on high-level discussion of important design principles. This easy-to-read text ideally serves the needs of undergraduate and early graduate students embarking on an “Introduction to Data Science” course. It reveals how this discipline sits at the intersection of statistics, computer science, and machine learning, with a distinct heft and character of its own. Practitioners in these and related fields will find this book perfect for self-study as well. Additional learning tools: Contains “War Stories,” offering perspectives on how data science applies in the real world Includes “Homework Problems,” providing a wide range of exercises and projects for self-study Provides a complete set of lecture slides and online video lectures at www.data-manual.com Provides “Take-Home Lessons,” emphasizing the big-picture concepts to learn from each chapter Recommends exciting “Kaggle Challenges” from the online platform Kaggle Highlights “False Starts,” revealing the subtle reasons why certain approaches fail Offers examples taken from the data science television show “The Quant Shop” (www.quant-shop.com)",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_13",
+						"identifier": "9783319554440"
+					},
+					{
+						"type": "ISBN_10",
+						"identifier": "3319554441"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": true
+				},
+				"pageCount": 445,
+				"printType": "BOOK",
+				"categories": ["Computers"],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": true,
+				"contentVersion": "0.2.0.0.preview.1",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=rHIqDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=rHIqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com/books?id=rHIqDwAAQBAJ&printsec=frontcover&dq=algorithm+design+manual&hl=&cd=4&source=gbs_api",
+				"infoLink": "https://play.google.com/store/books/details?id=rHIqDwAAQBAJ&source=gbs_api",
+				"canonicalVolumeLink": "https://play.google.com/store/books/details?id=rHIqDwAAQBAJ"
+			},
+			"saleInfo": {
+				"country": "US",
+				"saleability": "FOR_SALE_AND_RENTAL",
+				"isEbook": true,
+				"listPrice": {
+					"amount": 69.99,
+					"currencyCode": "USD"
+				},
+				"retailPrice": {
+					"amount": 55.99,
+					"currencyCode": "USD"
+				},
+				"buyLink": "https://play.google.com/store/books/details?id=rHIqDwAAQBAJ&rdid=book-rHIqDwAAQBAJ&rdot=1&source=gbs_api",
+				"offers": [
+					{
+						"finskyOfferType": 1,
+						"listPrice": {
+							"amountInMicros": 69990000,
+							"currencyCode": "USD"
+						},
+						"retailPrice": {
+							"amountInMicros": 55990000,
+							"currencyCode": "USD"
+						},
+						"giftable": true
+					},
+					{
+						"finskyOfferType": 3,
+						"listPrice": {
+							"amountInMicros": 24500000,
+							"currencyCode": "USD"
+						},
+						"retailPrice": {
+							"amountInMicros": 21320000,
+							"currencyCode": "USD"
+						},
+						"rentalDuration": {
+							"unit": "DAY",
+							"count": 90
+						}
+					}
+				]
+			},
+			"accessInfo": {
+				"country": "US",
+				"viewability": "PARTIAL",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.com/books/download/The_Data_Science_Design_Manual-sample-pdf.acsm?id=rHIqDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=rHIqDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "Practitioners in these and related fields will find this book perfect for self-study as well."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "dNoLBwAAQBAJ",
+			"etag": "CkZOVSxavOc",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/dNoLBwAAQBAJ",
+			"volumeInfo": {
+				"title": "Programming Challenges",
+				"subtitle": "The Programming Contest Training Manual",
+				"authors": ["Steven S Skiena", "Miguel A. Revilla"],
+				"publisher": "Springer Science & Business Media",
+				"publishedDate": "2006-04-18",
+				"description": "There are many distinct pleasures associated with computer programming. Craftsm- ship has its quiet rewards, the satisfaction that comes from building a useful object and making it work. Excitement arrives with the ?ash of insight that cracks a previously intractable problem. The spiritual quest for elegance can turn the hacker into an artist. Therearepleasuresinparsimony,insqueezingthelastdropofperformanceoutofclever algorithms and tight coding. Thegames,puzzles,andchallengesofproblemsfrominternationalprogrammingc- petitionsareagreatwaytoexperiencethesepleasureswhileimprovingyouralgorithmic and coding skills. This book contains over 100 problems that have appeared in previous programming contests, along with discussions of the theory and ideas necessary to - tack them. Instant online grading for all of these problems is available from two WWW robot judging sites. Combining this book with a judge gives an exciting new way to challenge and improve your programming skills. This book can be used for self-study, for teaching innovative courses in algorithms and programming, and in training for international competition. To the Reader Theproblemsinthisbookhavebeenselectedfromover1,000programmingproblemsat the Universidad de Valladolid online judge, available athttp://online-judge.uva.es.The judgehasruledonwelloveronemillionsubmissionsfrom27,000registeredusersaround the world to date. We have taken only the best of the best, the most fun, exciting, and interesting problems available.",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_13",
+						"identifier": "9780387220819"
+					},
+					{
+						"type": "ISBN_10",
+						"identifier": "038722081X"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": true
+				},
+				"pageCount": 364,
+				"printType": "BOOK",
+				"categories": ["Computers"],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": true,
+				"contentVersion": "preview-1.0.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=dNoLBwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=dNoLBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com/books?id=dNoLBwAAQBAJ&printsec=frontcover&dq=algorithm+design+manual&hl=&cd=5&source=gbs_api",
+				"infoLink": "https://play.google.com/store/books/details?id=dNoLBwAAQBAJ&source=gbs_api",
+				"canonicalVolumeLink": "https://play.google.com/store/books/details?id=dNoLBwAAQBAJ"
+			},
+			"saleInfo": {
+				"country": "US",
+				"saleability": "FOR_SALE_AND_RENTAL",
+				"isEbook": true,
+				"listPrice": {
+					"amount": 79.99,
+					"currencyCode": "USD"
+				},
+				"retailPrice": {
+					"amount": 63.99,
+					"currencyCode": "USD"
+				},
+				"buyLink": "https://play.google.com/store/books/details?id=dNoLBwAAQBAJ&rdid=book-dNoLBwAAQBAJ&rdot=1&source=gbs_api",
+				"offers": [
+					{
+						"finskyOfferType": 1,
+						"listPrice": {
+							"amountInMicros": 79990000,
+							"currencyCode": "USD"
+						},
+						"retailPrice": {
+							"amountInMicros": 63990000,
+							"currencyCode": "USD"
+						},
+						"giftable": true
+					},
+					{
+						"finskyOfferType": 3,
+						"listPrice": {
+							"amountInMicros": 28000000,
+							"currencyCode": "USD"
+						},
+						"retailPrice": {
+							"amountInMicros": 24360000,
+							"currencyCode": "USD"
+						},
+						"rentalDuration": {
+							"unit": "DAY",
+							"count": 90
+						}
+					}
+				]
+			},
+			"accessInfo": {
+				"country": "US",
+				"viewability": "PARTIAL",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.com/books/download/Programming_Challenges-sample-pdf.acsm?id=dNoLBwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=dNoLBwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "This book contains over 100 problems that have appeared in previous programming contests, along with discussions of the theory and ideas necessary to attack them."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "KyqWzQEACAAJ",
+			"etag": "SpbGH+40dFg",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/KyqWzQEACAAJ",
+			"volumeInfo": {
+				"title": "The Algorithm Design Manual",
+				"authors": ["Steven S Skiena"],
+				"publisher": "Springer",
+				"publishedDate": "2020-12-31",
+				"description": "\"My absolute favorite for this kind of interview preparation is Steven Skiena’s The Algorithm Design Manual. More than any other book it helped me understand just how astonishingly commonplace ... graph problems are -- they should be part of every working programmer’s toolkit. The book also covers basic data structures and sorting algorithms, which is a nice bonus. ... every 1 – pager has a simple picture, making it easy to remember. This is a great way to learn how to identify hundreds of problem types.\" (Steve Yegge, Get that Job at Google) \"Steven Skiena’s Algorithm Design Manual retains its title as the best and most comprehensive practical algorithm guide to help identify and solve problems. ... Every programmer should read this book, and anyone working in the field should keep it close to hand. ... This is the best investment ... a programmer or aspiring programmer can make.\" (Harold Thimbleby, Times Higher Education) \"The is the most approachable book on algorithms I have.\" (Megan Squire, Elon University) --- This newly expanded and updated third edition of the best-selling classic continues to take the \"mystery\" out of designing algorithms, and analyzing their efficiency. It serves as the primary textbook of choice for algorithm design courses and interview self-study, while maintaining its status as the premier practical reference guide to algorithms for programmers, researchers, and students. The reader-friendly Algorithm Design Manual provides straightforward access to combinatorial algorithms technology, stressing design over analysis. The first part, Practical Algorithm Design, provides accessible instruction on methods for designing and analyzing computer algorithms. The second part, the Hitchhiker's Guide to Algorithms, is intended for browsing and reference, and comprises the catalog of algorithmic resources, implementations, and an extensive bibliography. NEW to the third edition: -- New and expanded coverage of randomized algorithms, hashing, divide and conquer, approximation algorithms, and quantum computing -- Provides full online support for lecturers, including an improved website component with lecture slides and videos -- Full color illustrations and code instantly clarify difficult concepts -- Includes several new \"war stories\" relating experiences from real-world applications -- Over 100 new problems, including programming-challenge problems from LeetCode and Hackerrank. -- Provides up-to-date links leading to the best implementations available in C, C++, and Java Additional Learning Tools: -- Contains a unique catalog identifying the 75 algorithmic problems that arise most often in practice, leading the reader down the right path to solve them -- Exercises include \"job interview problems\" from major software companies -- Highlighted \"take home lessons\" emphasize essential concepts -- The \"no theorem-proof\" style provides a uniquely accessible and intuitive approach to a challenging subject -- Many algorithms are presented with actual code (written in C) -- Provides comprehensive references to both survey articles and the primary literature Written by a well-known algorithms researcher who received the IEEE Computer Science and Engineering Teaching Award, this substantially enhanced third edition of The Algorithm Design Manual is an essential learning tool for students and professionals needed a solid grounding in algorithms. Professor Skiena is also the author of the popular Springer texts, The Data Science Design Manual and Programming Challenges: The Programming Contest Training Manual.",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_10",
+						"identifier": "3030542556"
+					},
+					{
+						"type": "ISBN_13",
+						"identifier": "9783030542559"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"printType": "BOOK",
+				"categories": ["Computers"],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "preview-1.0.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com/books?id=KyqWzQEACAAJ&dq=algorithm+design+manual&hl=&cd=6&source=gbs_api",
+				"infoLink": "http://books.google.com/books?id=KyqWzQEACAAJ&dq=algorithm+design+manual&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/The_Algorithm_Design_Manual.html?hl=&id=KyqWzQEACAAJ"
+			},
+			"saleInfo": {
+				"country": "US",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "US",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=KyqWzQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "This is a great way to learn how to identify hundreds of problem types.&quot; (Steve Yegge, Get that Job at Google) &quot;Steven Skiena’s Algorithm Design Manual retains its title as the best and most comprehensive practical algorithm guide to help ..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "LyHSBQAAQBAJ",
+			"etag": "vshCYyr8cmE",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/LyHSBQAAQBAJ",
+			"volumeInfo": {
+				"title": "A Guide to Algorithm Design",
+				"subtitle": "Paradigms, Methods, and Complexity Analysis",
+				"authors": ["Anne Benoit", "Yves Robert", "Frédéric Vivien"],
+				"publisher": "CRC Press",
+				"publishedDate": "2013-08-27",
+				"description": "Presenting a complementary perspective to standard books on algorithms, A Guide to Algorithm Design: Paradigms, Methods, and Complexity Analysis provides a roadmap for readers to determine the difficulty of an algorithmic problem by finding an optimal solution or proving complexity results. It gives a practical treatment of algorithmic complexity and guides readers in solving algorithmic problems. Divided into three parts, the book offers a comprehensive set of problems with solutions as well as in-depth case studies that demonstrate how to assess the complexity of a new problem. Part I helps readers understand the main design principles and design efficient algorithms. Part II covers polynomial reductions from NP-complete problems and approaches that go beyond NP-completeness. Part III supplies readers with tools and techniques to evaluate problem complexity, including how to determine which instances are polynomial and which are NP-hard. Drawing on the authors’ classroom-tested material, this text takes readers step by step through the concepts and methods for analyzing algorithmic complexity. Through many problems and detailed examples, readers can investigate polynomial-time algorithms and NP-completeness and beyond.",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_13",
+						"identifier": "9781439898130"
+					},
+					{
+						"type": "ISBN_10",
+						"identifier": "1439898138"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": true
+				},
+				"pageCount": 380,
+				"printType": "BOOK",
+				"categories": ["Computers"],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "1.4.4.0.preview.1",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=LyHSBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=LyHSBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com/books?id=LyHSBQAAQBAJ&printsec=frontcover&dq=algorithm+design+manual&hl=&cd=7&source=gbs_api",
+				"infoLink": "https://play.google.com/store/books/details?id=LyHSBQAAQBAJ&source=gbs_api",
+				"canonicalVolumeLink": "https://play.google.com/store/books/details?id=LyHSBQAAQBAJ"
+			},
+			"saleInfo": {
+				"country": "US",
+				"saleability": "FOR_SALE",
+				"isEbook": true,
+				"listPrice": {
+					"amount": 98.95,
+					"currencyCode": "USD"
+				},
+				"retailPrice": {
+					"amount": 79.16,
+					"currencyCode": "USD"
+				},
+				"buyLink": "https://play.google.com/store/books/details?id=LyHSBQAAQBAJ&rdid=book-LyHSBQAAQBAJ&rdot=1&source=gbs_api",
+				"offers": [
+					{
+						"finskyOfferType": 1,
+						"listPrice": {
+							"amountInMicros": 98950000,
+							"currencyCode": "USD"
+						},
+						"retailPrice": {
+							"amountInMicros": 79160000,
+							"currencyCode": "USD"
+						},
+						"giftable": true
+					}
+				]
+			},
+			"accessInfo": {
+				"country": "US",
+				"viewability": "PARTIAL",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.com/books/download/A_Guide_to_Algorithm_Design-sample-pdf.acsm?id=LyHSBQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=LyHSBQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "Drawing on the authors’ classroom-tested material, this text takes readers step by step through the concepts and methods for analyzing algorithmic complexity."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "UvWGgaE4ZA8C",
+			"etag": "pIwdsbTugnw",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/UvWGgaE4ZA8C",
+			"volumeInfo": {
+				"title": "Calculated Bets",
+				"subtitle": "Computers, Gambling, and Mathematical Modeling to Win",
+				"authors": ["Steven S. Skiena"],
+				"publisher": "Cambridge University Press",
+				"publishedDate": "2001-08-06",
+				"description": "A story of using computer simulations and mathematical modeling techniques to predict the outcome of jai-alai matches and bet on them successfully.",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_10",
+						"identifier": "0521009626"
+					},
+					{
+						"type": "ISBN_13",
+						"identifier": "9780521009621"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": true
+				},
+				"pageCount": 232,
+				"printType": "BOOK",
+				"categories": ["Computers"],
+				"averageRating": 4,
+				"ratingsCount": 2,
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.0.1.0.preview.1",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=UvWGgaE4ZA8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=UvWGgaE4ZA8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com/books?id=UvWGgaE4ZA8C&printsec=frontcover&dq=algorithm+design+manual&hl=&cd=8&source=gbs_api",
+				"infoLink": "http://books.google.com/books?id=UvWGgaE4ZA8C&dq=algorithm+design+manual&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Calculated_Bets.html?hl=&id=UvWGgaE4ZA8C"
+			},
+			"saleInfo": {
+				"country": "US",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "US",
+				"viewability": "PARTIAL",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=UvWGgaE4ZA8C&hl=&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "A story of using computer simulations and mathematical modeling techniques to predict the outcome of jai-alai matches and bet on them successfully."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "QWIrAAAAQBAJ",
+			"etag": "Nw8eoi51H3A",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/QWIrAAAAQBAJ",
+			"volumeInfo": {
+				"title": "Algorithm Design",
+				"authors": ["Jon Kleinberg", "Éva Tardos"],
+				"publisher": "Pearson Higher Ed",
+				"publishedDate": "2012-02-28",
+				"description": "This is the eBook of the printed book and may not include any media, website access codes, or print supplements that may come packaged with the bound book. Algorithm Design introduces algorithms by looking at the real-world problems that motivate them. The book teaches students a range of design and analysis techniques for problems that arise in computing applications. The text encourages an understanding of the algorithm design process and an appreciation of the role of algorithms in the broader field of computer science. August 6, 2009 Author, Jon Kleinberg, was recently cited in the New York Times for his statistical analysis research in the Internet age.",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_13",
+						"identifier": "9780133072525"
+					},
+					{
+						"type": "ISBN_10",
+						"identifier": "0133072525"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": true
+				},
+				"pageCount": 864,
+				"printType": "BOOK",
+				"categories": ["Computers"],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": true,
+				"contentVersion": "0.2.0.0.preview.1",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=QWIrAAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=QWIrAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com/books?id=QWIrAAAAQBAJ&printsec=frontcover&dq=algorithm+design+manual&hl=&cd=9&source=gbs_api",
+				"infoLink": "https://play.google.com/store/books/details?id=QWIrAAAAQBAJ&source=gbs_api",
+				"canonicalVolumeLink": "https://play.google.com/store/books/details?id=QWIrAAAAQBAJ"
+			},
+			"saleInfo": {
+				"country": "US",
+				"saleability": "FOR_RENTAL_ONLY",
+				"isEbook": true,
+				"buyLink": "https://play.google.com/store/books/details?id=QWIrAAAAQBAJ&rdid=book-QWIrAAAAQBAJ&rdot=1&source=gbs_api",
+				"offers": [
+					{
+						"finskyOfferType": 3,
+						"listPrice": {
+							"amountInMicros": 39990000,
+							"currencyCode": "USD"
+						},
+						"retailPrice": {
+							"amountInMicros": 39990000,
+							"currencyCode": "USD"
+						},
+						"rentalDuration": {
+							"unit": "DAY",
+							"count": 180
+						}
+					}
+				]
+			},
+			"accessInfo": {
+				"country": "US",
+				"viewability": "PARTIAL",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=QWIrAAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "This is the eBook of the printed book and may not include any media, website access codes, or print supplements that may come packaged with the bound book."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "WrtdzQEACAAJ",
+			"etag": "+9sSNUuVRh4",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/WrtdzQEACAAJ",
+			"volumeInfo": {
+				"title": "The Algorithm Design",
+				"subtitle": "Manual",
+				"authors": ["Amro Solima"],
+				"publisher": "Independently Published",
+				"publishedDate": "2020-02-02",
+				"description": "What are the algorithms and why do you have to learn them before you learn any programming language?The algorithms are called Algorithms in EnglishThe first thing you should know is that the algorithm is not a programming language, it is methods of analysis and thinking that we have to follow so you can write the code properlyWhat's the problem with everyone being afraid of programming?Most people who try to learn programming you see them they go straight in the wrong direction, they start to directly study a particular programming language (such as Java, C, C) without being exposed to the principles of basic programming, and without that they put the basic ideas of the program, then analyzed and performed one after the other",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_13",
+						"identifier": "9798608161865"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 50,
+				"printType": "BOOK",
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "preview-1.0.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=WrtdzQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=WrtdzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.com/books?id=WrtdzQEACAAJ&dq=algorithm+design+manual&hl=&cd=10&source=gbs_api",
+				"infoLink": "http://books.google.com/books?id=WrtdzQEACAAJ&dq=algorithm+design+manual&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/The_Algorithm_Design.html?hl=&id=WrtdzQEACAAJ"
+			},
+			"saleInfo": {
+				"country": "US",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "US",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=WrtdzQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "What are the algorithms and why do you have to learn them before you learn any programming language?The algorithms are called Algorithms in EnglishThe first thing you should know is that the algorithm is not a programming language, it is ..."
+			}
+		}
+	]
+}
