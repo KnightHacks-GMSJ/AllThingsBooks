@@ -1,9 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
-import { Text, TextInput, View, StyleSheet } from 'react-native';
+import { Text, StyleSheet } from 'react-native';
 import uuid from 'uuid-random';
 import axios from 'axios';
-import { Container, Content, Card, Form, Item, Input, Button } from 'native-base';
+import { Form, Item, Input, Button } from 'native-base';
 
 function Search({ onSearch }) {
 	const [text, setText] = useState('');
@@ -31,17 +30,13 @@ function Search({ onSearch }) {
 				linkToPdf: book.accessInfo.pdf.acsTokenLink || 'Unavailable',
 			}),
 		);
-		console.log(newBooksArray[1]);
-		// setBookData(newBooksArray);
+		setBookData(newBooksArray);
 	};
 
 	return (
 		<Form style={style.form}>
 			<Item rounded style={style.input}>
-				<Input
-					placeholder="Enter Title of Book to Get Started..."
-					onChangeText={(text) => setText(text)}
-				></Input>
+				<Input placeholder="Enter Title of Book..." onChangeText={(text) => setText(text)}></Input>
 			</Item>
 			<Button
 				style={style.button}
