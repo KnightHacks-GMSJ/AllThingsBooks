@@ -38,6 +38,7 @@ Records file snapshots permanently in version history
 
 Uploads all local branch commits to GitHub
 
+<<<<<<< HEAD
 ## Data for BooksArray
 
 ```
@@ -70,3 +71,16 @@ BooksArray: [
   },
 ]
 ```
+=======
+### `git checkout [branch-name]`
+
+Switches to the specified branch and updates the working directory
+
+### `git branch`
+
+Lists all branches in the current repo
+
+### `git branch [branch-name]`
+
+Creates a new branch
+>>>>>>> master
