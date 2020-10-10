@@ -1,13 +1,23 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, ImageBackground, View } from "react-native";
+import { StyleSheet, ImageBackground, View, SafeAreaView } from "react-native";
 
-export default function App() {
+import Title from "./components/Title";
+import Search from "./components/Search";
+import BookList from "./components/BookList";
+
+function App() {
     return (
         <ImageBackground
             style={styles.backgroundImage}
             source={require("./assets/background-image.jpg")}
-        ></ImageBackground>
+        >
+            <SafeAreaView style={styles.safeArea}>
+                <Title />
+                <Search />
+                <BookList />
+            </SafeAreaView>
+        </ImageBackground>
     );
 }
 
@@ -15,4 +25,9 @@ const styles = StyleSheet.create({
     backgroundImage: {
         flex: 1,
     },
+    safeArea: {
+        alignItems: "center",
+    },
 });
+
+export default App;
