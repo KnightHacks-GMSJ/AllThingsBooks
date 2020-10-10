@@ -5,6 +5,7 @@ import Title from "./components/Title";
 import Search from "./components/Search";
 import BookList from "./components/BookList";
 
+// ! Do not run on web browser
 import { Container, Card } from "native-base";
 
 function App() {
