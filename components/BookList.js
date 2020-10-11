@@ -3,12 +3,15 @@ import React from "react";
 import { View } from "react-native";
 
 import Book from "./Book";
+import { Container, Content, List, ListItem, Text } from "native-base";
 
-function BookList() {
+function BookList(props) {
     return (
-        <View>
-            <Book />
-        </View>
+        <Container style={{ width: "75%" }}>
+            {props.books.map((book) => (
+                <Book key={book.id} book={book} />
+            ))}
+        </Container>
     );
 }
 
