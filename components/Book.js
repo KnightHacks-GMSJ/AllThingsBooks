@@ -27,9 +27,9 @@ function Book({ book }) {
 							{book.averageRating ? ` ${book.averageRating} out of 5` : ' Unavailable'}
 						</Text>
 						<Text>Publisher: {book.publisher}</Text>
-						<Text>Publish Date: {book.publishedDate}</Text>
-						<Text>{book.linkToBuy}</Text>
-						<Text>{book.pageCount} Pages</Text>
+						<Text>Year Published: {book.publishedDate.substring(0, 4)}</Text>
+						<Text>Page Count: {book.pageCount}</Text>
+						<Text>{book.linkToBuy ? ` ${book.linkToBuy}` : ' Link to Buy Unavailable'}</Text>
 					</Body>
 				</View>
 			</Content>

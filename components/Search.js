@@ -18,7 +18,7 @@ function Search({ onSearch }) {
 			newBooksArray.push({
 				id: uuid(),
 				title: book.volumeInfo.title,
-				author: book.volumeInfo.authors[0],
+				author: book.volumeInfo.authors[0] || 'Unavailable',
 				publisher: book.volumeInfo.publisher,
 				publishedDate: book.volumeInfo.publishedDate,
 				description: book.volumeInfo.description,
@@ -34,7 +34,10 @@ function Search({ onSearch }) {
 	return (
 		<Form style={style.form}>
 			<Item rounded style={style.input}>
-				<Input placeholder="Enter Title of Book..." onChangeText={(text) => setText(text)}></Input>
+				<Input
+					placeholder="Enter Title or Author..."
+					onChangeText={(text) => setText(text)}
+				></Input>
 			</Item>
 			<Button
 				style={style.button}
