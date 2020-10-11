@@ -28,8 +28,9 @@ function App() {
 						<BookList
 							books={currentBooksList.filter(
 								(b) =>
-									// b.linkToBuy !== 'Unavailable' &&
-									b.description !== 'Unavailable' && b.averageRating != 'Unavailable',
+									b.linkToBuy !== 'Unavailable' &&
+									b.description !== 'Unavailable' &&
+									b.averageRating != 'Unavailable',
 							)}
 						/>
 					</SafeAreaView>
