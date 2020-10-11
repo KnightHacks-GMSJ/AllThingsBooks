@@ -56,14 +56,16 @@ const style = StyleSheet.create({
 		width: '90%',
 		flexDirection: 'row',
 		justifyContent: 'space-between',
+		// alignItems: 'center',
 	},
 	input: {
 		width: '65%',
 		borderColor: '#35c7de',
+		height: '87%',
 	},
 	button: {
 		width: '30%',
-		flexDirection: 'column',
+		flexDirection: 'row',
 		justifyContent: 'center',
 	},
 });
