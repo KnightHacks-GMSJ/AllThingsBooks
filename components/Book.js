@@ -21,7 +21,7 @@ function Book({ book, onLoadBook }) {
                 padding: 20,
                 height: "12%",
                 width: "100%",
-                backgroundColor: "white",
+                backgroundColor: "#E4D3F9",
                 borderRadius: 30,
                 marginVertical: 5,
             }}

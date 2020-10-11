@@ -13,6 +13,7 @@ function BookPage({ onVisible, onModalVisible, book }) {
                     <Header
                         style={{
                             flexDirection: "column",
+                            backgroundColor: "#E4D3F9",
                         }}
                     >
                         <Text>{book.title}</Text>
@@ -27,7 +28,7 @@ function BookPage({ onVisible, onModalVisible, book }) {
                     <TouchableHighlight
                         style={{
                             ...styles.openButton,
-                            backgroundColor: "#2196F3",
+                            backgroundColor: "#E4D3F9",
                         }}
                         onPress={() => {
                             onModalVisible(!onVisible);
@@ -49,6 +50,7 @@ const styles = StyleSheet.create({
     modalView: {
         margin: 10,
         backgroundColor: "white",
+        // backgroundColor: "#E4D3F9",
         // borderRadius: 20,
         // alignItems: "center",
         shadowColor: "#000",
@@ -67,7 +69,7 @@ const styles = StyleSheet.create({
         elevation: 2,
     },
     textStyle: {
-        color: "white",
+        color: "black",
         fontWeight: "bold",
         textAlign: "center",
     },
