@@ -5,19 +5,28 @@ import { StyleSheet, ImageBackground, View, SafeAreaView } from "react-native";
 import Title from "./components/Title";
 import Search from "./components/Search";
 import BookList from "./components/BookList";
+import { Container } from "native-base";
 
 function App() {
+	const [currentBooksList, setCurrentBooksList] = useState([]);
+
+	const onSearch = (booksArray) => {
+		setCurrentBooksList(booksArray);
+		console.log(currentBooksList);
+	};
   return (
-    <ImageBackground
-      style={styles.backgroundImage}
-      source={require("./assets/background-image.jpg")}
-    >
-      <SafeAreaView style={styles.safeArea}>
-        <Title />
-        <Search />
-        <BookList />
-      </SafeAreaView>
-    </ImageBackground>
+		<Container>
+			<ImageBackground
+				style={styles.backgroundImage}
+				source={require("./assets/background-image.jpg")}
+			>
+				<SafeAreaView style={styles.safeArea}>
+					<Title />
+					<Search onSearch={onSearch} />
+					<BookList />
+				</SafeAreaView>
+			</ImageBackground>
+		</Container>
   );
 }
 
