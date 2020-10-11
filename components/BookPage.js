@@ -1,9 +1,15 @@
 import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
-import { View, Modal, TouchableHighlight, StyleSheet } from "react-native";
+import {
+    View,
+    Modal,
+    TouchableHighlight,
+    StyleSheet,
+    Image,
+} from "react-native";
 
 import Book from "./Book";
-import { Text, Header, Body, Left } from "native-base";
+import { Text, Header, Body, Left, Right, Footer, Button } from "native-base";
 
 function BookPage({ onVisible, onModalVisible, book }) {
     return (
@@ -20,22 +26,42 @@ function BookPage({ onVisible, onModalVisible, book }) {
                         <Text note>{book.author}</Text>
                     </Header>
 
-                    <Text style={{ top: 5, left: 5 }} note>
+                    <Text
+                        style={{ top: 5, right: 5, alignSelf: "flex-end" }}
+                        note
+                    >
                         {book.publishedDate}
                     </Text>
+                    <Text
+                        style={{ top: 5, right: 5, alignSelf: "flex-end" }}
+                        note
+                    >
+                        {book.publisher}
+                    </Text>
+
                     <Text style={{ padding: 10 }}>{book.description}</Text>
 
-                    <TouchableHighlight
-                        style={{
-                            ...styles.openButton,
-                            backgroundColor: "#E4D3F9",
-                        }}
-                        onPress={() => {
-                            onModalVisible(!onVisible);
-                        }}
-                    >
-                        <Text style={styles.textStyle}>Close</Text>
-                    </TouchableHighlight>
+                    <Footer>
+                        {/* TODO: 
+                                - Shopping link
+                                - ratings
+                                - pageCount
+                        */}
+                        <Right>
+                            <TouchableHighlight
+                                style={{
+                                    ...styles.openButton,
+                                    backgroundColor: "#E4D3F9",
+                                    right: 4,
+                                }}
+                                onPress={() => {
+                                    onModalVisible(!onVisible);
+                                }}
+                            >
+                                <Text style={styles.textStyle}>X</Text>
+                            </TouchableHighlight>
+                        </Right>
+                    </Footer>
                 </View>
             </View>
         </Modal>
@@ -66,6 +92,7 @@ const styles = StyleSheet.create({
         backgroundColor: "#F194FF",
         borderRadius: 20,
         padding: 10,
+        width: "10%",
         elevation: 2,
     },
     textStyle: {
