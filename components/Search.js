@@ -53,7 +53,6 @@ function Search({ onSearch }) {
 			>
 				<Text>Search</Text>
 			</Button>
-			{/* <Text onPress={() => Linking.openURL('http://google.com')}>test </Text> */}
 		</Form>
 	);
 }

@@ -2,9 +2,28 @@ import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
 import { View, Modal, TouchableHighlight, StyleSheet, Image, Linking } from 'react-native';
 import Book from './Book';
+import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
+
 import { Text, Header, Body, Left, Right, Footer, Button } from 'native-base';
 
 function BookPage({ onVisible, onModalVisible, book }) {
+	// let newDescription;
+	// if (book.description) {
+	// 	let description = book.description;
+	// 	const nthIndex = (str, pat, n) => {
+	// 		let L = str.length,
+	// 			i = -1;
+	// 		while (n-- && i++ < L) {
+	// 			i = str.indexOf(pat, i);
+	// 			if (i < 0) break;
+	// 		}
+	// 		return i;
+	// 	};
+
+	// 	let index = nthIndex(description, '. ', 7);
+	// 	newDescription = description.substring(0, index + 1);
+	// } else newDescription = 'Description Not Available';
+
 	return (
 		<Modal animationType="slide" transparent={true} visible={onVisible}>
 			<View style={styles.centeredView}>
@@ -36,15 +55,21 @@ function BookPage({ onVisible, onModalVisible, book }) {
 					<Text style={{ top: 5, right: 5, alignSelf: 'flex-end' }} note>
 						Page Count: {book.pageCount || 'Unavailable'}
 					</Text>
-
 					<Text style={{ padding: 10 }}>{book.description}</Text>
+
 					<Text
 						style={{ padding: 10, color: 'blue' }}
-						onPress={() => Linking.openURL(book.linkToBuy)}
+						onPress={() => {
+							book.linkToBuy !== 'Unavailable' ? Linking.openURL(book.linkToBuy) : '';
+						}}
 					>
-						{book.linkToBuy ? `Click Here to Buy` : ' Link to Buy Unavailable'}
+						{book.linkToBuy !== 'Unavailable' ? `Click Here to Buy` : ' Link to Buy Unavailable'}
 					</Text>
-					<TouchableHighlight onPress={() => Linking.openURL(book.linkToBuy)}>
+					<TouchableHighlight
+						onPress={() => {
+							book.linkToBuy !== 'Unavailable' ? Linking.openURL(book.linkToBuy) : '';
+						}}
+					>
 						<Image
 							source={require('../assets/cart.png')}
 							style={{ height: 30, width: 30, bottom: 5, left: 10 }}
@@ -52,8 +77,8 @@ function BookPage({ onVisible, onModalVisible, book }) {
 					</TouchableHighlight>
 					<Footer>
 						{/* TODO: 
-                                - Shopping link
-                                - ratings
+                                - Shopping link : done
+                                - ratings: done
                                 - pageCount: done
                         */}
 						<Right>
@@ -92,7 +117,7 @@ const styles = StyleSheet.create({
 			width: 0,
 			height: 2,
 		},
-		shadowOpacity: 0.25,
+		shadowOpacity: 0.5,
 		shadowRadius: 3.84,
 		elevation: 5,
 	},
