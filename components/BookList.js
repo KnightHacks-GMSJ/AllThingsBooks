@@ -8,6 +8,13 @@ import BookPage from "./BookPage";
 
 function BookList(props) {
     const [modalVisible, setModalVisible] = useState(false);
+    const [loadedBook, setLoadedBook] = useState([]);
+
+    const handleLoadBook = (book) => {
+        setLoadedBook(book);
+        console.log(loadedBook);
+        setModalVisible(true);
+    };
 
     return (
         <Container
@@ -22,10 +29,14 @@ function BookList(props) {
                 backgroundColor: "transparent",
             }}
         >
-            <BookPage onVisible={modalVisible} />
+            <BookPage
+                onVisible={modalVisible}
+                onModalVisible={setModalVisible}
+                book={loadedBook}
+            />
 
             {props.books.map((book) => (
-                <Book key={book.id} book={book} onModal={setModalVisible} />
+                <Book key={book.id} book={book} onLoadBook={handleLoadBook} />
             ))}
         </Container>
     );

@@ -14,7 +14,7 @@ import {
     Right,
 } from "native-base";
 
-function Book({ book, onModal }) {
+function Book({ book, onLoadBook }) {
     return (
         <TouchableHighlight
             style={{
@@ -25,7 +25,7 @@ function Book({ book, onModal }) {
                 borderRadius: 30,
                 marginVertical: 5,
             }}
-            onPress={() => onModal(true)}
+            onPress={() => onLoadBook(book)}
         >
             <Content>
                 <Card transparent>

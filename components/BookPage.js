@@ -3,18 +3,26 @@ import React, { useState } from "react";
 import { View, Modal, TouchableHighlight, StyleSheet } from "react-native";
 
 import Book from "./Book";
-import { Text } from "native-base";
+import { Text, Header, Body, Left } from "native-base";
 
-function BookPage(props) {
+function BookPage({ onVisible, onModalVisible, book }) {
     return (
-        <Modal
-            animationType="slide"
-            transparent={true}
-            visible={props.onVisible}
-        >
+        <Modal animationType="slide" transparent={true} visible={onVisible}>
             <View style={styles.centeredView}>
                 <View style={styles.modalView}>
-                    <Text style={styles.modalText}>Hello World!</Text>
+                    <Header
+                        style={{
+                            flexDirection: "column",
+                        }}
+                    >
+                        <Text>{book.title}</Text>
+                        <Text note>{book.author}</Text>
+                    </Header>
+
+                    <Text style={{ top: 5, left: 5 }} note>
+                        {book.publishedDate}
+                    </Text>
+                    <Text style={{ padding: 10 }}>{book.description}</Text>
 
                     <TouchableHighlight
                         style={{
@@ -22,10 +30,10 @@ function BookPage(props) {
                             backgroundColor: "#2196F3",
                         }}
                         onPress={() => {
-                            setModalVisible(!modalVisible);
+                            onModalVisible(!onVisible);
                         }}
                     >
-                        <Text style={styles.textStyle}>Hide Modal</Text>
+                        <Text style={styles.textStyle}>Close</Text>
                     </TouchableHighlight>
                 </View>
             </View>
@@ -35,17 +43,14 @@ function BookPage(props) {
 
 const styles = StyleSheet.create({
     centeredView: {
-        flex: 1,
         justifyContent: "center",
-        alignItems: "center",
-        marginTop: 22,
+        marginTop: 30,
     },
     modalView: {
-        margin: 20,
+        margin: 10,
         backgroundColor: "white",
-        borderRadius: 20,
-        padding: 35,
-        alignItems: "center",
+        // borderRadius: 20,
+        // alignItems: "center",
         shadowColor: "#000",
         shadowOffset: {
             width: 0,
