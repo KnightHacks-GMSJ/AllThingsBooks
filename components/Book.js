@@ -22,6 +22,10 @@ function Book({ book }) {
 					<Body>
 						<Text style={{ fontSize: '17', fontWeight: 'bold' }}>{book.title}</Text>
 						<Text>Author: {book.author}</Text>
+						<Text>
+							Average Rating:
+							{book.averageRating ? ` ${book.averageRating} out of 5` : ' Unavailable'}
+						</Text>
 						<Text>Publisher: {book.publisher}</Text>
 						<Text>Publish Date: {book.publishedDate}</Text>
 						<Text>{book.linkToBuy}</Text>
