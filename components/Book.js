@@ -8,16 +8,17 @@ function Book({ book }) {
 	return (
 		<Container
 			style={{
-				padding: 20,
-				marginVertical: 20,
+				padding: 15,
+				height: 150,
 				backgroundColor: '#03BBF9',
 				borderRadius: 30,
-				borderWidth: 0,
+				borderWidth: 0.5,
 				marginVertical: 5,
+				marginHorizontal: -20,
 			}}
 		>
 			<Content>
-				<View>
+				<Card transparent>
 					<Body>
 						<Text>{book.title}</Text>
 						<Text>{book.author}</Text>
@@ -26,7 +27,7 @@ function Book({ book }) {
 						<Text>{book.linkToBuy}</Text>
 						<Text>{book.pageCount} Pages</Text>
 					</Body>
-				</View>
+				</Card>
 			</Content>
 		</Container>
 	);
