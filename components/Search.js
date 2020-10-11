@@ -25,8 +25,6 @@ function Search({ onSearch }) {
 				pageCount: book.volumeInfo.pageCount,
 				averageRating: book.volumeInfo.averageRating,
 				linkToBuy: book.saleInfo.buyLink || 'Unavailable',
-				smallThumbnail: book.volumeInfo.imageLinks.smallThumbnail || 'Unavailable',
-				thumbnail: book.volumeInfo.imageLinks.thumbnail,
 				linkToPdf: book.accessInfo.pdf.acsTokenLink || 'Unavailable',
 			}),
 		);

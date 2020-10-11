@@ -9,6 +9,7 @@ function Book({ book }) {
 		<Container
 			style={{
 				padding: 20,
+				marginVertical: 20,
 				backgroundColor: '#03BBF9',
 				borderRadius: 30,
 				borderWidth: 0,
@@ -16,7 +17,7 @@ function Book({ book }) {
 			}}
 		>
 			<Content>
-				<Card transparent>
+				<View>
 					<Body>
 						<Text>{book.title}</Text>
 						<Text>{book.author}</Text>
@@ -25,11 +26,7 @@ function Book({ book }) {
 						<Text>{book.linkToBuy}</Text>
 						<Text>{book.pageCount} Pages</Text>
 					</Body>
-					<CardItem cardBody bordered style={{ paddingBottom: 100, margin: 30 }}>
-						<Image source={require('../assets/content.jpg')} style={{ height: 200, flex: 1 }} />
-					</CardItem>
-					<Body></Body>
-				</Card>
+				</View>
 			</Content>
 		</Container>
 	);

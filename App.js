@@ -45,7 +45,7 @@ function App() {
 					<SafeAreaView style={styles.safeArea}>
 						<Title booksArray={currentBooksList} />
 						<Search onSearch={onSearch} />
-						<BookList books={books} />
+						<BookList books={currentBooksList} />
 					</SafeAreaView>
 				</Content>
 			</ImageBackground>
