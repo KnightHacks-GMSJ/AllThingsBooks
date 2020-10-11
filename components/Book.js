@@ -20,7 +20,7 @@ function Book({ book }) {
 			<Content>
 				<View>
 					<Body>
-						<Text style={{ fontSize: '17', fontWeight: 'bold' }}>{book.title}</Text>
+						<Text style={{ fontSize: 17, fontWeight: 'bold' }}>{book.title}</Text>
 						<Text>Author: {book.author}</Text>
 						<Text>
 							Average Rating:
