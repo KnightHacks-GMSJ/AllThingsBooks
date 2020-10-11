@@ -4,7 +4,7 @@ import { View, Image } from 'react-native';
 
 import { Card, Container, Content, Text, Header, CardItem, Body, Right } from 'native-base';
 
-function Book(props) {
+function Book({ book }) {
 	return (
 		<Container
 			style={{ padding: 20, backgroundColor: 'dodgerblue', borderWidth: 0, marginVertical: 5 }}
@@ -12,8 +12,8 @@ function Book(props) {
 			<Content>
 				<Card transparent>
 					<Body>
-						<Text>{props.book.title}</Text>
-						<Text note>{props.book.author}</Text>
+						<Text>{book.title}</Text>
+						<Text note>{book.author}</Text>
 					</Body>
 					<CardItem cardBody bordered style={{ margin: 30 }}>
 						<Image source={require('../assets/content.jpg')} style={{ height: 400, flex: 1 }} />
