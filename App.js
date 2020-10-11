@@ -15,26 +15,6 @@ function App() {
 		console.log(currentBooksList);
 	};
 
-	const books = [
-		{
-			id: 1,
-			title: 'A Game of Thrones',
-			author: 'George R.R. Martin',
-			publisher: 'Sample Publisher',
-			publishedDate: '02/02/1999',
-			description:
-				'Minim ad fugiat eiusmod eiusmod magna occaecat ipsum do esse laboris. Occaecat nulla deserunt minim et exercitation duis aliquip velit consectetur amet consectetur. Eu officia exercitation do quis eiusmod reprehenderit dolor ea occaecat cillum id non.',
-			pageCount: 800,
-			linkToBuy: 'https://heresalink.com/buythisbookitsreallyreallyreallygood',
-		},
-		{ id: 2, title: 'A Game of Thrones', author: 'George R.R. Martin' },
-		// { id: 3, title: 'A Game of Thrones', author: 'George R.R. Martin' },
-		// { id: 4, title: 'A Game of Thrones', author: 'George R.R. Martin' },
-		// { id: 5, title: 'A Game of Thrones', author: 'George R.R. Martin' },
-		// { id: 6, title: 'A Game of Thrones', author: 'George R.R. Martin' },
-		// { id: 7, title: 'A Game of Thrones', author: 'George R.R. Martin' },
-	];
-
 	return (
 		<Container>
 			<ImageBackground
