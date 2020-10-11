@@ -35,6 +35,7 @@ function App() {
 		// { id: 7, title: 'A Game of Thrones', author: 'George R.R. Martin' },
 	];
 
+>>>>>>> booklist-feature
 	return (
 		<Container>
 			<ImageBackground
@@ -43,7 +44,7 @@ function App() {
 			>
 				<Content>
 					<SafeAreaView style={styles.safeArea}>
-						<Title />
+						<Title booksArray={currentBooksList}/>
 						<Search onSearch={onSearch} />
 						<BookList books={books} />
 					</SafeAreaView>
